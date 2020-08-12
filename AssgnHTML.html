@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS files/AssgnCSS.css">
+    <title>Weather</title>
+    <link rel="icon" href="Weather Icons/snowflakeIcon.svg" type="image/icon type">
+</head>
+
+<body>
+    <div class="T001">
+
+        <div class="columnA">
+            <div class="columnA1"> 
+                <div class="row">
+                    <img src="Icons for cities/anadyr.svg" alt="city icon" class="cityicon">
+                    <select id="cities" class="citylist">
+                        <option value="Anadyr">Anadyr</option>
+                        <option value="Auckland">Auckland</option>
+                        <option value="Bangkok">Bangkok</option>
+                        <option value="Brokenhill">Brokenhill</option>
+                        <option value="Dublin">Dublin</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Juba">Juba</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="London">London</option>
+                        <option value="Losangeles">Losangeles</option>
+                        <option value="Maseru">Maseru</option>
+                        <option value="Moscow">Moscow</option>
+                        <option value="Newyork">Newyork</option>
+                        <option value="Nome">Nome</option>
+                        <option value="Perth">Perth</option>
+                        <option value="Seoul">Seoul</option>
+                        <option value="Troll">Troll</option>
+                        <option value="Vienna">Vienna</option>
+                        <option value="Vostok">Vostok</option>
+                        <option value="Winnipeg">Winnipeg</option>
+                        <option value="Yangyon">Yangyon</option>
+                    </select>                    
+                </div>
+                <div class="row citytime">
+                    <p>
+                        10:10:<sub>44</sub> <img alt="am pm" src="General Images & Icons/amState.svg" height="40px" width="40px"> <br> 01-March-2020 
+                    </p>
+                </div>
+            </div>
+            
+            <div class="columnA2">
+                <div class="row citytempc">
+                    <p class="smallfont">Temp&#8451;</p>
+                    <p class="boldfont">35 &#8451;</p>                    
+                </div>
+
+                <div class="row citytempc citytempf">
+                    <p class="smallfont">Temp F</p>
+                    <p class="boldfont">35 F</p>
+                </div>
+            </div>
+
+            <div class="columnA3">
+                <div class="row citytempc cityhumid">
+                    <p class="smallfont">Humidity&#8451;</p>
+                    <p class="boldfont">35 %</p>
+                </div>
+
+                <div class="row citytempc cityprecep">
+                    <p class="smallfont">Precipitation</p>
+                    <p class="boldfont">52 %</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columnB">
+            <p>NOW<br>|<br><img alt="icon" src="Weather Icons/sunnyIconBlack.svg"><br>6</p>
+            <p><br>|</p> 
+            <p>11 AM<br>|<br><img alt="icon" src="Weather Icons/cloudyIcon.svg"><br>7</p> 
+            <p><br>|</p> 
+            <p>12 PM<br>|<br><img alt="icon" src="Weather Icons/precipitationIcon.svg"><br>7</p> 
+            <p><br>|</p> 
+            <p>1 PM<br>|<br><img alt="icon" src="Weather Icons/precipitationIconBlack.svg"><br>8</p>
+            <p><br>|</p> 
+            <p>2 PM<br>|<br><img alt="icon" src="Weather Icons/rainyIcon.svg"><br>8</p>
+            <p><br>|</p> 
+            <p>3 PM<br>|<br><img alt="icon" src="Weather Icons/rainyIconBlack.svg"><br>6</p>            
+        </div>
+
+    </div>
+
+<div class="blackarea">
+
+    <div class="T002">
+
+        <div class="titleT002">
+            <div class="header">
+                <a href="#">Top cities around world</a>
+            </div>
+
+            <div class="wthrsel">
+                <ul>
+                    <li> <img class="weathericon" alt="icon" src="Weather Icons/sunnyIcon.svg"></li>
+                     <li> <img class="weathericon" alt="icon" src="Weather Icons/snowflakeIcon.svg"></li>
+                    <li> <img class="weathericon" alt="icon" src="Weather Icons/rainyIcon.svg"></li>                    
+                </ul>
+            </div> 
+
+            <div class="numcitysel">
+                <label for="numcards">Display top:</label>
+                <input type="number" id="numcards" name="numcards" min="3" max="10">    
+            </div>  
+        </div>        
+        
+        
+        <div class="wthrcard">
+            <div class="card">
+                <p class="item1">Auckland<br>10:00AM</p>   
+                <p class="item2"><img alt="icon" src="Weather Icons/sunnyIcon.svg" height="20px" width="20px"> 25 &#8451;</p> 
+                <div class="item3">
+                    <p>02-MAR-2020</p>
+                    <p><img alt="icon" src="Weather Icons/humidityIcon.svg" height="10px" width="10px">10%</p>
+                    <p><img alt="icon" src="Weather Icons/precipitationIcon.svg" height="10px" width="10px">53%</p>                    
+                </div>                                           
+            </div>      
+            
+            <div class="card">
+                <p class="item1">Auckland<br>10:00AM</p>   
+                <p class="item2"><img alt="icon" src="Weather Icons/sunnyIcon.svg" height="20px" width="20px"> 25 &#8451;</p> 
+                <div class="item3">
+                    <p>02-MAR-2020</p>
+                    <p><img alt="icon" src="Weather Icons/humidityIcon.svg" height="10px" width="10px">10%</p>
+                    <p><img alt="icon" src="Weather Icons/precipitationIcon.svg" height="10px" width="10px">53%</p>                    
+                </div>                                           
+            </div>
+
+            <div class="card">
+                <p class="item1">Auckland<br>10:00AM</p>   
+                <p class="item2"><img alt="icon" src="Weather Icons/sunnyIcon.svg" height="20px" width="20px"> 25 &#8451;</p> 
+                <div class="item3">
+                    <p>02-MAR-2020</p>
+                    <p><img alt="icon" src="Weather Icons/humidityIcon.svg" height="10px" width="10px">10%</p>
+                    <p><img alt="icon" src="Weather Icons/precipitationIcon.svg" height="10px" width="10px">53%</p>                    
+                </div>                                           
+            </div>
+
+            <div class="card">
+                <p class="item1">Auckland<br>10:00AM</p>   
+                <p class="item2"><img alt="icon" src="Weather Icons/sunnyIcon.svg" height="20px" width="20px"> 25 &#8451;</p> 
+                <div class="item3">
+                    <p>02-MAR-2020</p>
+                    <p><img alt="icon" src="Weather Icons/humidityIcon.svg" height="10px" width="10px">10%</p>
+                    <p><img alt="icon" src="Weather Icons/precipitationIcon.svg" height="10px" width="10px">53%</p>                    
+                </div>                                           
+            </div>
+
+            <div class="card">
+                <p class="item1">Auckland<br>10:00AM</p>   
+                <p class="item2"><img alt="icon" src="Weather Icons/sunnyIcon.svg" height="20px" width="20px"> 25 &#8451;</p> 
+                <div class="item3">
+                    <p>02-MAR-2020</p>
+                    <p><img alt="icon" src="Weather Icons/humidityIcon.svg" height="10px" width="10px">10%</p>
+                    <p><img alt="icon" src="Weather Icons/precipitationIcon.svg" height="10px" width="10px">53%</p>                    
+                </div>                                           
+            </div>         
+        </div>             
+    </div>    
+
+    <div class="T003">
+
+        <div class="titleT003">
+            <div class="headerT003"><p>Cities across continents at a glance</p></div>
+            <div class="navibarT003">
+                Continent name <img class="smallicon" alt="icon" src="General Images & Icons/arrowDown.svg"> Temperature <img class="smallicon" alt="icon" src="General Images & Icons/arrowUp.svg">
+            </div>
+        </div>
+        
+        <div class="continents">
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div>  
+            
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+
+            <div class="contitem">
+                <div class="continame">
+                    <p class="ylw">Asia</p>
+                    <p class="mediumfont">Delhi, 10:10 AM</p>
+                </div>
+                <div class="contitemp">
+                    <p class="bigfont">35 &#8451;</p>
+                    <p class="mediumfont"><img alt="icon" src="Weather Icons/humidityIcon.svg">53% </p>
+                </div>                
+            </div> 
+           
+        </div>
+
+    </div>
+
+</div>
+    
+</body>
+
+</html>
